@@ -131,10 +131,10 @@
       "name": "mi_card",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-12-06T09:39:18.479043Z",
+  "generated": "2022-12-06T13:30:00.312760Z",
   "generator": "pub",
   "generatorVersion": "2.18.5"
 }

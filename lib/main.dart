@@ -1,12 +1,27 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(Myapp());
+}
+
+class Myapp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Container(),
+        body: SafeArea(
+          child: Column(
+            children: <Widget>[
+              CircleAvatar(
+                // backgroundColor: Colors.red,
+                radius: 50,
+                backgroundImage: AssetImage('images/1.png'),
+              ),
+            ],
+          ),
+        ),
       ),
-    ),
-  );
+    );
+  }
 }
