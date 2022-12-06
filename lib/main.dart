@@ -18,6 +18,14 @@ class Myapp extends StatelessWidget {
                 radius: 50,
                 backgroundImage: AssetImage('images/1.png'),
               ),
+              Text(
+                'Kanna',
+                style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
